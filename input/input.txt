@@ -1,0 +1,21 @@
+Questions:
+
+Checksum checking is it done at the client side, while reading? Client Side
+
+Block scanner on the Datanode side checks for the block corruption before client reads it, but will there be any client side checking for data consistency.
+Quorum based: What does the journal nodes do?
+
+
+How will the record reader behave for variable width file.
+
+
+Spark:
+
+Can we decide on the numb of executors on a standalone cluster ?
+
+Autoresizing is possible in Yarn and mesos mode.
+
+Read about vnode usage
+
+
+Is Partitioning always helpful ? cases where portioning is not helpful.

@@ -1,0 +1,13 @@
+	11
+ but will there be any client side checking for data consistency.	1
+ while reading? Client Side	1
+Autoresizing is possible in Yarn and mesos mode.	1
+Block scanner on the Datanode side checks for the block corruption before client reads it	1
+Can we decide on the numb of executors on a standalone cluster ?	1
+Checksum checking is it done at the client side	1
+How will the record reader behave for variable width file.	1
+Is Partitioning always helpful ? cases where portioning is not helpful.	1
+Questions:	1
+Quorum based: What does the journal nodes do?	1
+Read about vnode usage	1
+Spark:	1
