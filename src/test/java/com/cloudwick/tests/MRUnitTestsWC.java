@@ -60,7 +60,7 @@ public class MRUnitTestsWC {
     }
 
     @Test
-    public void testMapReduce() throws IOException{
+    public void testMapReduce() throws IOException {
 
         mapReduceDriver.withInput(new LongWritable(), new Text("abc,def,abc"));
         mapReduceDriver.withOutput(new Text("abc"), new IntWritable(2));
